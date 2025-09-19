@@ -1,6 +1,19 @@
-## 智能调研助手
+## vue3 手势库 demo项目
 
-本工程是使用 TinyEngine 低代码引擎搭建之后得到的出码工程。
+本工程是使用 vue3 脚手架构建的手势使用demo案例
+### Available hooks
+
+@use-gesture-x/vue exports several hooks that can handle different gestures:
+
+| Hook         | Description                                |
+| ------------ | ------------------------------------------ |
+| `useDrag`    | Handles the drag gesture                   |
+| `useMove`    | Handles mouse move events                  |
+| `useHover`   | Handles mouse enter and mouse leave events |
+| `useScroll`  | Handles scroll events                      |
+| `useWheel`   | Handles wheel events                       |
+| `usePinch`   | Handles the pinch gesture                  |
+| `useGesture` | Handles multiple gestures in one hook      |
 
 ## 使用
 
