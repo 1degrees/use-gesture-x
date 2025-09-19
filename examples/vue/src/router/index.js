@@ -38,12 +38,7 @@ const routes = [
         name: 'useGesture',
         path: '/useGesture',
         component: () => import('@sandboxes/useGesture/src/app.vue')
-      },
-      {
-        name: 'cardZoom',
-        path: '/cardZoom',
-        component: () => import('@sandboxes/cardZoom/src/app.vue')
-      },
+      }
     ]
   }
 ]

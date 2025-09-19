@@ -20,7 +20,7 @@ const [style, api] = useSpring({})
 
 const bind = useHover(({ active, xy: [x, y], args: [color, scale] }) => {
   if (active) {
-    api.set({ x, y, opacity: 1, backgroundColor: color })
+    api.start({ x, y, opacity: 1, backgroundColor: color })
   } else {
     api.set({ x: 0, y: 0, backgroundColor: '#ffffff00' })
   }
