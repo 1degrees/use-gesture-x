@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import { useScroll } from '@use-gesture/vue3'
+import { useScroll } from '@use-gesture-x/vue3'
 import { ref } from 'vue'
 
 const target = ref(null)

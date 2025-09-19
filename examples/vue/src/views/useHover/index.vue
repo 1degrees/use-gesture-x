@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import { useHover } from '@use-gesture/vue3'
+import { useHover } from '@use-gesture-x/vue3'
 import { useSpring } from '../useSpring'
 import { reactive } from 'vue'
 const data = reactive([

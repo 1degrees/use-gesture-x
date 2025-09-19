@@ -12,8 +12,8 @@
   "dependencies": {
     "vue": "^3.3.9",
     "vue-router": "^4.2.5",
-    "@use-gesture/core": "workspace:~",
-    "@use-gesture/vue3": "workspace:~"
+    "@use-gesture-x/vue3": "workspace:~",
+    "@use-gesture-x/vue3": "workspace:~"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",

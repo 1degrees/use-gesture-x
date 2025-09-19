@@ -6,7 +6,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useWheel } from '@use-gesture/vue3'
+import { useWheel } from '@use-gesture-x/vue3'
 import { useSpring } from '../useSpring'
 
 const [style, api] = useSpring()

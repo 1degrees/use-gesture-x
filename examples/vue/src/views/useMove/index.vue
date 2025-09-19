@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import { useMove } from '@use-gesture/vue3'
+import { useMove } from '@use-gesture-x/vue3'
 import { useSpring } from '../useSpring'
 import { reactive } from 'vue'
 const data = reactive([

@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { useDrag } from '@use-gesture/vue3'
+import { useDrag } from '@use-gesture-x/vue3'
 import { useSpring } from '../useSpring'
 import ConfigPanel from '../configPanle/index.vue'
 import { watch, reactive, ref, computed } from 'vue'

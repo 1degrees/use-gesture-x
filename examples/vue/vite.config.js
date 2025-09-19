@@ -28,8 +28,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      '@use-gesture/core': path.resolve(__dirname, '..', 'packages/core/src'),
-      '@use-gesture/vue3': path.resolve(__dirname, '..', 'packages/vue3/src/index.ts')
+      '@use-gesture-x/vue3': path.resolve(__dirname, '..', 'packages/core/src'),
+      '@use-gesture-x/vue3': path.resolve(__dirname, '..', 'packages/vue3/src/index.ts')
     }
   },
   plugins: [vue(), vueJsx()],

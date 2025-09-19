@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import { useDrag } from '@use-gesture/vue3'
+import { useDrag } from '@use-gesture-x/vue3'
 import { useSpring } from '../useSpring'
 
 const [style, api] = useSpring()
