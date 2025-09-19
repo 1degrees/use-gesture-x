@@ -6,27 +6,35 @@
   "main": "dist/index.es.js",
   "module": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "vite build"
-  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
-      "module": "./dist/index.es.js",
-      "default": "./dist/index.cjs.js"
+      "import": "./dist/index.es.js",
+      "default": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"  
     },
     "./types": {
-      "module": "./dist/types.es.js",
-      "default": "./dist/types.cjs.js"
+      "import": "./dist/types.es.js",
+      "default": "./dist/types.cjs.js",
+      "types": "./dist/types.d.ts"
     },
     "./utils": {
-      "module": "./dist/utils.es.js",
-      "default": "./dist/utils.cjs.js"
+      "import": "./dist/utils.es.js",
+      "default": "./dist/utils.cjs.js",
+      "types": "./dist/utils.d.ts"
     },
     "./actions": {
-      "module": "./dist/actions.es.js",
-      "default": "./dist/actions.cjs.js"
+      "import": "./dist/actions.es.js",
+      "default": "./dist/actions.cjs.js",
+      "types": "./dist/actions.d.ts"
     },
     "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "vite build"
   },
   "sideEffects": false,
   "preconstruct": {

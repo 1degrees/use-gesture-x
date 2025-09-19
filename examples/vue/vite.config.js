@@ -28,8 +28,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      '@use-gesture-x/vue3': path.resolve(__dirname, '..', 'packages/core/src'),
-      '@use-gesture-x/vue3': path.resolve(__dirname, '..', 'packages/vue3/src/index.ts')
+      '@sandboxes': path.resolve(__dirname, 'sandboxes'),
     }
   },
   plugins: [vue(), vueJsx()],

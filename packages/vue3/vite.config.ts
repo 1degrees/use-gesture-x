@@ -27,7 +27,7 @@ export default defineConfig({
   build: {
     sourcemap: false,
     lib: {
-      name: '@use-gesture-x/core',
+      name: '@use-gesture-x/vue3',
       entry: [
         path.resolve(__dirname, './src/index.ts'),
       ],
@@ -35,7 +35,9 @@ export default defineConfig({
       formats: ['es', 'cjs']
     },
     rollupOptions: {
-      external: ['vue']
+      external: (id) => {
+        return id.startsWith('vue') || id.startsWith('@use-gesture-x/core')
+      },
     }
   }
 })

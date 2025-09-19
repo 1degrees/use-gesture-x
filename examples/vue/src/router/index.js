@@ -7,37 +7,37 @@ const routes = [
       {
         name: 'useDrag',
         path: '/useDrag',
-        component: () => import('@/views/useDrag/index.vue')
+        component: () => import('@sandboxes/useDrag/src/app.vue')
       },
       {
         name: 'useMove',
         path: '/useMove',
-        component: () => import('@/views/useMove/index.vue')
+        component: () => import('@sandboxes/useMove/src/app.vue')
       },
       {
         name: 'usePinch',
         path: '/usePinch',
-        component: () => import('@/views/usePinch/index.vue')
+        component: () => import('@sandboxes/usePinch/src/app.vue')
       },
       {
         name: 'useWheel',
         path: '/useWheel',
-        component: () => import('@/views/useWheel/index.vue')
+        component: () => import('@sandboxes/useWheel/src/app.vue')
       },
       {
         name: 'useScroll',
         path: '/useScroll',
-        component: () => import('@/views/useScroll/index.vue')
+        component: () => import('@sandboxes/useScroll/src/app.vue')
       },
       {
         name: 'useHover',
         path: '/useHover',
-        component: () => import('@/views/useHover/index.vue')
+        component: () => import('@sandboxes/useHover/src/app.vue')
       },
       {
         name: 'useGesture',
         path: '/useGesture',
-        component: () => import('@/views/useGesture/index.vue')
+        component: () => import('@sandboxes/useGesture/src/app.vue')
       }
     ]
   }
