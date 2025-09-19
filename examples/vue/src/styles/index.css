@@ -1,0 +1,230 @@
+::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0 0 0 /8%);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+body,
+html,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: top;
+}
+.tiny-form-item__label {
+  padding: 0 !important;
+}
+.tiny-svg.validate-icon {
+  display: none !important;
+}
+.tiny-upload.tiny-upload--text {
+  width: 100%;
+}
+.pb-3 .tiny-dialog-box__body {
+  padding-bottom: 24px !important;
+}
+.noRule {
+  --tv-FormItem-border-color-error: #c2c2c2 !important;
+  --tv-base-color-error-6: #c2c2c2 !important;
+}
+.tinycheckboxgroup-nlvqo .tiny-checkbox {
+  height: 22px !important;
+  line-height: 22px !important;
+  width: 100%;
+  margin: 0;
+}
+.tinycheckboxgroup-nlvqo {
+  flex: 1;
+  overflow: auto;
+  display: inline-block;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0 0 0 /8%) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+.tiny-upload--picture-card {
+  --tv-Upload-picture-card-width: 80px;
+  --tv-Upload-picture-card-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tiny-file-upload {
+  line-height: normal;
+}
+.td .tiny-tooltip {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.td > div {
+  width: 100%;
+  display: flex;
+}
+.tinygrid-lykni .tiny-grid-header__row th:nth-child(1) .tiny-grid-cell-text::before {
+  content: '*';
+  color: #f23030;
+  margin-right: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tinygrid-lykni .tiny-grid-header__row th:nth-child(2) .tiny-grid-cell-text::before {
+  content: '*';
+  color: #f23030;
+  margin-right: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tinygrid-lykni .tiny-grid-header__row th:nth-child(3) .tiny-grid-cell-text::before {
+  content: '*';
+  color: #f23030;
+  margin-right: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tinygrid-lykni .tiny-grid-header__row th:nth-child(4) .tiny-grid-cell-text::before {
+  content: '*';
+  color: #f23030;
+  margin-right: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tinydrawer-tkmtv .tiny-drawer-main {
+  position: absolute !important;
+  height: auto !important;
+  top: 0 !important;
+  bottom: 0 !important;
+}
+.tiny-drawer__body {
+  padding: 0 24px !important;
+}
+.tinydialogbox-mlqgs .tiny-drawer__body {
+  display: flex;
+  flex-direction: column;
+}
+.tinydialogbox-mlqgs .tiny-grid-tree__indent {
+  max-width: 20px !important;
+}
+.tiny-grid-tree-wrapper {
+  width: 20px !important;
+  padding-right: 4px !important;
+}
+.tinydialogbox-mlqgs .tiny-grid-cell > div {
+  display: flex;
+  align-items: center;
+}
+.tooltipCh * {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 22px;
+  font-weight: 400;
+}
+.tooltipCh h2 {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 22px;
+  font-weight: 550;
+}
+.div-htuzg > div:first-child {
+  width: 100% !important;
+  height: 100% !important;
+}
+.tiny-tabs__header .tiny-tabs__nav-wrap {
+  width: 100%;
+}
+.tiny-grid {
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+}
+.tiny-grid__body-wrapper {
+  flex: 1;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.tiny-grid-cell > div {
+  line-height: normal;
+}
+.tinyfileupload-jhthn .tiny-upload-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.tinyfileupload-jhthn .tiny-upload-list__item {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+}
+.hideUpload {
+  margin: 0 !important;
+}
+.hideUpload .tiny-upload {
+  height: 0;
+  opacity: 0;
+}
+.tinyfileupload-jhthn * {
+  transition: none !important;
+}
+.div-ugiuh .tiny-tabs {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.div-ugiuh .tiny-tabs__content {
+  flex: 1;
+  overflow: hidden;
+}
+.div-ugiuh .tiny-tab-pane {
+  height: 100%;
+}
+.div-ugiuh .tiny-tab-pane > div {
+  height: 100%;
+}
+.div-twrqk .tiny-tabs__content {
+  display: none;
+}
+.alert {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.form-line {
+  position: relative;
+}
+.alert .text {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: normal;
+}
+.alert .a-lhhnv {
+  font-weight: 100;
+  font-size: 14px;
+  color: #2959dd;
+  line-height: normal;
+}
+.tiny-alert__title {
+  margin: 0 24px 0 0 !important;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "demo-vue",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "dependencies": {
+    "vue": "^3.3.9",
+    "vue-router": "^4.2.5",
+    "@use-gesture/core": "workspace:~",
+    "@use-gesture/vue3": "workspace:~"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "less": "^4.2.2",
+    "less-loader": "^12.2.0",
+    "vite": "^5.4.2"
+  }
+}
