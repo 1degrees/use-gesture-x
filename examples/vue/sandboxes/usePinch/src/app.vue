@@ -6,7 +6,7 @@
 
 <script setup>
 import { useDrag } from '@use-gesture-x/vue3'
-import { useSpring } from '../useSpring'
+import { useSpring } from './useSpring'
 
 const [style, api] = useSpring()
 
