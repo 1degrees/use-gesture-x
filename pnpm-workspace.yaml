@@ -1,0 +1,13 @@
+packages:
+  - "packages/*"
+  - "examples/*"
+
+devDependencies:
+  typescript: 4.4.4
+  eslint: 8.1.0
+
+peerDependencies:
+  react: "*"
+  "react-dom": "*"
+
+hoistPattern: "*"
