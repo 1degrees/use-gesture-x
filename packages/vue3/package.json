@@ -1,6 +1,6 @@
 {
   "name": "@use-gesture-x/vue3",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "vue target for @use-gesture",
   "keywords": [
     "vue",
@@ -29,7 +29,7 @@
     ".": {
       "import": "./dist/index.es.js",
       "default": "./dist/index.cjs.js",
-      "types": "./dist/index.d.ts"  
+      "types": "./dist/index.d.ts"
     },
     "./package.json": "./package.json"
   },
@@ -53,7 +53,7 @@
     "vue": ">= 3.2.1"
   },
   "dependencies": {
-    "@use-gesture-x/core": "0.0.1"
+    "@use-gesture-x/core": "^1.0.0"
   },
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
