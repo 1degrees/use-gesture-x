@@ -12,19 +12,30 @@
 
 import { defineConfig } from 'vite'
 import path from 'path'
-
+import dts from 'vite-plugin-dts'
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {},
   envDir: './env',
   publicDir: false,
+  plugins: [
+    dts({
+      insertTypesEntry: true,
+      tsconfigPath: path.resolve(__dirname, './tsconfig.json'),
+    }),
+  ],
   build: {
-    sourcemap: true,
+    sourcemap: false,
     lib: {
       name: '@use-gesture-x/core',
-      entry: path.resolve(__dirname, './src/index.ts'),
-      fileName: (_format, entryName) => `${entryName}.js`,
-      formats: ['es']
+      entry: [
+        path.resolve(__dirname, './src/index.ts'),
+        path.resolve(__dirname, './src/types.ts'), 
+        path.resolve(__dirname, './src/utils.ts'),
+        path.resolve(__dirname, './src/actions.ts')
+      ],
+      fileName: (format, entryName) => `${entryName}.${format}.js`,
+      formats: ['es', 'cjs']
     },
     rollupOptions: {
       external: ['vue']

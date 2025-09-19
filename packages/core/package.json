@@ -3,40 +3,28 @@
   "version": "0.0.1",
   "description": "Core engine for receiving gestures",
   "license": "MIT",
-  "main": "dist/use-gesture-core.cjs.js",
-  "module": "dist/use-gesture-core.esm.js",
+  "main": "dist/index.es.js",
+  "module": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "vite build"
   },
-  "devDependencies": {
-    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
-    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
-    "@types/node": "^18.0.0",
-    "@vitejs/plugin-vue": "^5.1.2",
-    "@vitejs/plugin-vue-jsx": "^4.0.1",
-    "cross-env": "^7.0.3",
-    "eslint": "^8.38.0",
-    "less": "^4.1.2",
-    "rollup-plugin-polyfill-node": "^0.13.0",
-    "vite": "^5.4.2",
-    "vite-plugin-static-copy": "^1.0.6"
-  },
   "exports": {
     ".": {
-      "module": "./dist/use-gesture-core.esm.js",
-      "default": "./dist/use-gesture-core.cjs.js"
+      "module": "./dist/index.es.js",
+      "default": "./dist/index.cjs.js"
     },
     "./types": {
-      "module": "./types/dist/use-gesture-core-types.esm.js",
-      "default": "./types/dist/use-gesture-core-types.cjs.js"
+      "module": "./dist/types.es.js",
+      "default": "./dist/types.cjs.js"
     },
     "./utils": {
-      "module": "./utils/dist/use-gesture-core-utils.esm.js",
-      "default": "./utils/dist/use-gesture-core-utils.cjs.js"
+      "module": "./dist/utils.es.js",
+      "default": "./dist/utils.cjs.js"
     },
     "./actions": {
-      "module": "./actions/dist/use-gesture-core-actions.esm.js",
-      "default": "./actions/dist/use-gesture-core-actions.cjs.js"
+      "module": "./dist/actions.es.js",
+      "default": "./dist/actions.cjs.js"
     },
     "./package.json": "./package.json"
   },
@@ -62,5 +50,19 @@
   "contributors": [
     "David Bismut (https://github.com/dbismut)"
   ],
-  "homepage": "https://use-gesture.netlify.app"
+  "homepage": "https://use-gesture.netlify.app",
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@types/node": "^18.0.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.38.0",
+    "less": "^4.1.2",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "vite": "^5.4.2",
+    "vite-plugin-dts": "~4.3.0",
+    "vite-plugin-static-copy": "^1.0.6"
+  }
 }

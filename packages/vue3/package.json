@@ -19,8 +19,11 @@
   ],
   "license": "MIT",
   "sideEffects": false,
-  "main": "dist/use-gesture-vue.cjs.js",
-  "module": "dist/use-gesture-vue.esm.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "build": "vite build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmndrs/use-gesture.git",
@@ -39,5 +42,19 @@
   },
   "dependencies": {
     "@use-gesture-x/core": "0.0.1"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@types/node": "^18.0.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.38.0",
+    "less": "^4.1.2",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "vite": "^5.4.2",
+    "vite-plugin-dts": "~4.3.0",
+    "vite-plugin-static-copy": "^1.0.6"
   }
 }
