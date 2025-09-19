@@ -2,8 +2,8 @@
   <div class="flex fill center container">
     <ConfigPanel v-model="config" />
     <div v-bind="bind()" class="drag" :style="style">
-      <div>
-        <span>bind</span>
+      <div class="text">
+        <span>拖拽观察位子:bind</span>
         <span> x:{{ Math.round(coords.x) }}, y:{{ Math.round(coords.y) }} </span>
       </div>
     </div>
@@ -106,9 +106,13 @@ body {
 }
 
 .hover {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   background-color: royalblue;
+  &::before {
+    content: '可在右侧面板启用范围限制，蓝色为拖动范围区域。(1、元素范围 2、下左右坐标)';
+    color: #fff;
+  }
 }
 
 .hover:hover {

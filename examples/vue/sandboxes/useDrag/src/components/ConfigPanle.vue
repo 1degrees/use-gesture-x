@@ -1,16 +1,19 @@
 <template>
   <div class="config-panle-container">
     <div class="config-panle-item">
+      <span>手势插件部分配置设置</span>
+    </div>
+    <div class="config-panle-item">
       <span>是否启用</span>
       <input :checked="model.enabled" @change="fromChange('enabled', $event.target.checked)" type="checkbox" />
     </div>
     <div class="config-panle-item">
       <span>移动方向</span>
       <select :value="model.axis" @change="fromChange('axis', $event.target.value)">
-        <option value="">undefined</option>
-        <option value="x">x</option>
-        <option value="y">y</option>
-        <option value="lock">lock</option>
+        <option value="">不限制</option>
+        <option value="x">横向</option>
+        <option value="y">纵向</option>
+        <option value="lock">方向锁定</option>
       </select>
     </div>
     <div class="config-panle-item">

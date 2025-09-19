@@ -22,13 +22,13 @@ npm install
 启动Demo项目：
 
 ```bash
-npm run demo:dev
+npm run dev
 ```
 
 编译Demo项目：
 
 ```bash
-npm run demo:build
+npm run build
 ```
 
 启动文档项目：
@@ -46,5 +46,5 @@ npm run doc:build
 编译核心工具库：
 
 ```bash
-npm run build
+npm run build:lib
 ```
