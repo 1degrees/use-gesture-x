@@ -1,6 +1,6 @@
 # vue3 手势库工具库
 
-本工程是借鉴 @use-gesture 库，基于 vue3 实现的手势库工具库
+本工程是借鉴 @use-gesture 库，基于vue3 Component API 实现的手势库工具库
 
 ## 项目结构
 
