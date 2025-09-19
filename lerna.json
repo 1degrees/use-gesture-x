@@ -6,9 +6,9 @@
   },
   "useNx": false,
   "version": "independent",
-  "npmClient": "pnpm",
+  "npmClient": "npm",
   "publish": {
-    "npmClient": "pnpm"
+    "npmClient": "npm"
   },
   "ignoreChanges": ["**/*.md", "**/test/**", ".npmrc"],
   "granularPathspec": false
