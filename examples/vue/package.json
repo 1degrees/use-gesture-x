@@ -13,7 +13,6 @@
   "dependencies": {
     "vue": "^3.3.9",
     "vue-router": "^4.2.5",
-    "@use-gesture-x/core": "^1.0.0",
     "@use-gesture-x/vue3": "^1.0.0"
   },
   "devDependencies": {
