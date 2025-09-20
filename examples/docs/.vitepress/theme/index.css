@@ -1,0 +1,16 @@
+:root:root {
+    --vp-layout-max-width: 1580px;
+    --vp-c-bg-alt: #fbfbfb;
+}
+
+.VPContent .VPDoc.has-aside .content-container {
+    max-width: 960px;
+}
+
+.VPContent .content-container .vitepress-demo-preview__naive-ui__container {
+    position: relative;
+}
+
+.VPContent .content-container .vitepress-demo-preview__naive-ui__container .vitepress-demo-preview-preview .container {
+    height: 460px;
+}
