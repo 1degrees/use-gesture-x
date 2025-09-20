@@ -25,7 +25,7 @@ export default defineConfig({
         nav: [
           {
             text: 'vue3 手势工具仓库',
-            link: '待开放',
+            link: 'https://github.com/1degrees/use-gesture-x',
           },
         ],
         sidebar: [
@@ -56,7 +56,7 @@ export default defineConfig({
         nav: [
           {
             text: 'vue3 gesture library repo',
-            link: '待开放',
+            link: 'https://github.com/1degrees/use-gesture-x',
           },
         ],
         sidebar: [
@@ -83,7 +83,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: '待开放',
+        link: 'https://github.com/1degrees/use-gesture-x',
       },
     ],
   },
