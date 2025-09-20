@@ -1,5 +1,5 @@
 <template>
-  <div className="flex fill center">
+  <div className="flex fill center container">
     <div ref="pinchRef" v-bind="bind()" class="drag" :style="style" >
       <div>
         <div>手势放大、缩小、旋转</div>
@@ -89,14 +89,14 @@ body {
 
 .drag {
   position: absolute;
-  height: 120px;
-  width: 120px;
+  height: 260px;
+  width: 260px;
   background-color: #ec625c;
   cursor: grab;
   touch-action: none;
   -webkit-user-select: none;
   user-select: none;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .drag > div {

@@ -1,6 +1,6 @@
 <template>
-  <div class="center fill">
-    <pre :style="{ position: 'fixed', padding: 40 }" class="drag"> {{ JSON.stringify(wheel, null, '  ') }} </pre>
+  <div class="center fill gesture-scroll">
+    <pre :style="{ position: 'fixed', padding: 40 }" class="drag"> {{ JSON.stringify(wheel) }} </pre>
   </div>
 </template>
 
@@ -86,5 +86,9 @@ body {
 
 .hover:hover {
   background-color: darkblue;
+}
+.gesture-scroll {
+  height: 360px;
+  background-color: lightblue;
 }
 </style>

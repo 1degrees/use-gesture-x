@@ -59,7 +59,7 @@ const fromChange = (key, val) => {
 .config-panle-container {
   position: absolute;
   width: 200px;
-  top: 10px;
+  top: 60px;
   right: 10px;
   padding: 20px;
   display: flex;

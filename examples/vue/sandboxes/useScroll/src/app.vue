@@ -1,6 +1,6 @@
 <template>
-  <div className="center fill">
-    <pre :style="{ position: 'fixed', padding: 40 }">{{ JSON.stringify(scroll, null, '  ') }}</pre>
+  <div className="center fill gesture-scroll">
+    <pre :style="{ position: 'fixed', padding: 40 }">{{ JSON.stringify(scroll) }}</pre>
     <div ref="target" :style="{ background: 'lightblue', height: '400px', overflow: 'scroll' }">
       <div :style="{ height: '1000px' }" />
     </div>
@@ -51,5 +51,8 @@ body {
 
 .flex.center {
   justify-content: center;
+}
+.gesture-scroll {
+  height: 360px;
 }
 </style>

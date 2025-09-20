@@ -11,6 +11,13 @@
     position: relative;
 }
 
+.vitepress-demo-preview__naive-ui__container .vitepress-demo-preview-description__btns {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 20;
+}
+
 .VPContent .content-container .vitepress-demo-preview__naive-ui__container .vitepress-demo-preview-preview .container {
     height: 460px;
 }

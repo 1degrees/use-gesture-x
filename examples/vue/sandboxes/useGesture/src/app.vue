@@ -126,8 +126,8 @@ body {
 }
 .text {
   position: absolute;
-  top: 10px;
-  left: 40%;
+  bottom: 26px;
+  left: 35%;
   font-size: 16px;
   padding: 10px;
   text-align: center;

@@ -11,3 +11,6 @@ dist/
 
 yarn.lock
 package-lock.json
+
+docs/.vitepress/cache
+docs/.vitepress/temp
