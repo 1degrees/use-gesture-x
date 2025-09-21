@@ -37,15 +37,6 @@
     "build": "vite build"
   },
   "sideEffects": false,
-  "preconstruct": {
-    "exports": true,
-    "entrypoints": [
-      "./index.ts",
-      "./utils.ts",
-      "./actions.ts",
-      "./types.ts"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmndrs/use-gesture.git",

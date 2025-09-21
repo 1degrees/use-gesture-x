@@ -11,6 +11,11 @@
 - `examples/vue`：vue3 手势库 demo 项目，展示如何使用 `@use-gesture-x/vue3`
 - `examples/doc`：vue3 手势库 文档说明， 主要介绍如何使用以及API文档
 
+## [Demo文档](https://1degrees.netlify.app/use-gesture-x/)
+
+## [Demo文档1](https://1degrees.github.io/use-gesture-x/)
+
+
 ## 快速开始
 
 安装依赖：
