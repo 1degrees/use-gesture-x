@@ -64,7 +64,7 @@
   "contributors": [
     "David Bismut (https://github.com/dbismut)"
   ],
-  "homepage": "https://1degrees.netlify.app/use-gesture-x/",
+  "homepage": "https://use-gesture-vue3.netlify.app/",
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",

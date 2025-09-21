@@ -52,7 +52,7 @@
   "contributors": [
     "David Bismut (https://github.com/dbismut)"
   ],
-  "homepage": "https://1degrees.netlify.app/use-gesture-x/",
+  "homepage": "https://use-gesture-vue3.netlify.app/",
   "peerDependencies": {
     "vue": ">= 3.2.1"
   },
