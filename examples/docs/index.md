@@ -1,4 +1,4 @@
-# vue3 手势组件
+# vue3 手势插件
 
 @use-gesture-x/vue3 一个非常易用且功能强大的 vue3 手势库。
 

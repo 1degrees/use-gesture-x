@@ -13,14 +13,16 @@ const alias = {
 export default defineConfig({
   base: '/use-gesture-x/',
   title: '@use-gesture-x/vue3',
-  description: 'Just playing around.',
-
+  description: '一款强大的 vue3 手势库，@use-gesture-x/vue3, @use-gesture/vue3, 支持拖拽、移动、悬停、滚轮、滚动、缩放、旋转、动画等手势操作。',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/use-gesture-x/logo.svg' }],
+  ],
   locales: {
     root: {
       label: '简体中文',
       lang: 'zh-CN',
       title: '@use-gesture-x/vue3',
-      description: '@use-gesture-x/vue3 一个强大的 vue3 手势库',
+      description: '一款强大的 vue3 手势库，@use-gesture-x/vue3, @use-gesture/vue3, 支持拖拽、移动、悬停、滚轮、滚动、缩放、旋转、动画等手势操作。',
       themeConfig: {
         nav: [
           {
@@ -51,7 +53,7 @@ export default defineConfig({
       label: 'English',
       lang: 'en-US',
       title: '@use-gesture-x/vue3',
-      description: 'A powerful vue3 gesture library',
+      description: 'A powerful Vue3 gesture library: @use-gesture-x/vue3 and @use-gesture/vue3. It supports gesture operations such as dragging, moving, hovering, wheel, scrolling, zooming, rotating, and animation.',
       themeConfig: {
         nav: [
           {
