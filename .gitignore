@@ -1,9 +1,7 @@
 node_modules
-dist/
-
-# local env files
-.env.local
-.env.*.local
+dist
+packages/**/node_modules
+packages/**/dist
 
 # Editor directories and files
 .vscode

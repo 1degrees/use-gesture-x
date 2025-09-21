@@ -1,6 +1,6 @@
 {
   "name": "@use-gesture-x/vue3",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "vue3 target for @use-gesture",
   "keywords": [
     "vue",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmndrs/use-gesture.git",
+    "url": "git+https://github.com/1degrees/use-gesture-x.git",
     "directory": "packages/react"
   },
   "bugs": {

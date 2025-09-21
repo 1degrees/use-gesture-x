@@ -48,7 +48,7 @@
     "build": "npm run build -w use-gesture-x-vue3-demo",
     "docs:dev": "npm run dev -w use-gesture-x-vue3-docs",
     "docs:build": "npm run build -w use-gesture-x-vue3-docs",
-    "build:lib": "npm run build:lib -w @use-gesture-x/core -w @use-gesture-x/vue3",
+    "build:lib": "npm run build -w @use-gesture-x/core -w @use-gesture-x/vue3",
     "pub:major": "npm run build:lib && lerna version major --no-push --yes && pnpm lerna publish from-package --yes",
     "pub:minor": "npm run build:lib && lerna version minor --no-push --yes && pnpm lerna publish from-package --yes",
     "pub:patch": "npm run build:lib && lerna version patch --no-push --yes && pnpm lerna publish from-package --yes",

@@ -1,6 +1,6 @@
 {
   "name": "@use-gesture-x/core",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "Core engine for receiving gestures",
   "keywords": [
     "vue3",
@@ -54,7 +54,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmndrs/use-gesture.git",
+    "url": "git+https://github.com/1degrees/use-gesture-x.git",
     "directory": "packages/core"
   },
   "bugs": {
