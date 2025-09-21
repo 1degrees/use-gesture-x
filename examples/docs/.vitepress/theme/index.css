@@ -21,3 +21,6 @@
 .VPContent .content-container .vitepress-demo-preview__naive-ui__container .vitepress-demo-preview-preview .container {
     height: 460px;
 }
+.VPContent .content-container .vitepress-demo-preview__naive-ui__container .vitepress-demo-preview-preview .gesture-scroll {
+    height: 360px;
+}

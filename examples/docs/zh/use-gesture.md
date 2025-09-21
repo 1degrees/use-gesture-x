@@ -2,6 +2,6 @@
 
 ## use-gesture 自定义手势 - 基础使用
 
-<preview path="@demo/useGesture/src/app.vue" title="useGesture" description="vue3 自定义手势，简单使用案例" />
+<preview path="@demo/useGesture/src/app.vue" title="useGesture 自定义手势" description="" />
 
 ## 复杂案例待更新

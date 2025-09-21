@@ -38,6 +38,11 @@ const routes = [
         name: 'useGesture',
         path: '/useGesture',
         component: () => import('@sandboxes/useGesture/src/app.vue')
+      },
+      {
+        name: 'dotsConnect',
+        path: '/dotsConnect',
+        component: () => import('@sandboxes/dotsConnect/src/app.vue')
       }
     ]
   }
