@@ -539,7 +539,7 @@ var dt = class extends y2 {
         if (o === "pointer" && e.preventScrollDelay === void 0) {
           const n2 = "uv" in t2 ? t2.sourceEvent.currentTarget : t2.currentTarget;
           window.getComputedStyle(n2).touchAction === "auto" && console.warn(
-            "[@use-gesture]: The drag target has its `touch-action` style property set to `auto`. It is recommended to add `touch-action: 'none'` so that the drag gesture behaves correctly on touch-enabled devices. For more information read this: https://use-gesture.netlify.app/docs/extras/#touch-action.\n\nThis message will only show in development mode. It won't appear in production. If this is intended, you can ignore it.",
+            "[@use-gesture]: The drag target has its `touch-action` style property set to `auto`. It is recommended to add `touch-action: 'none'` so that the drag gesture behaves correctly on touch-enabled devices. For more information read this: https://1degrees.netlify.app/use-gesture-x//docs/extras/#touch-action.\n\nThis message will only show in development mode. It won't appear in production. If this is intended, you can ignore it.",
             n2
           );
         }

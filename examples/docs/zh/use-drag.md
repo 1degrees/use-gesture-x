@@ -6,6 +6,6 @@
 
 ## useDrag 拖拽 - 调控设置面板案例
 
-<preview path="@demo/useDrag/src/app.vue" title="useDrag" description="vue3 拖拽，调控设置面板案例" />
+<preview path="@demo/useDrag/src/app.vue" title="useDrag拖拽，调控设置面板案例" description="" />
 
 ## 复杂案例待更新

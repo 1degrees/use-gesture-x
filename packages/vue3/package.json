@@ -1,10 +1,11 @@
 {
   "name": "@use-gesture-x/vue3",
   "version": "1.0.0",
-  "description": "vue target for @use-gesture",
+  "description": "vue3 target for @use-gesture",
   "keywords": [
     "vue",
-    "hook",
+    "vue3",
+    "@use-gesture-x/vue3",
     "gesture",
     "mouse",
     "trackpad",
@@ -23,7 +24,10 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
   ],
   "exports": {
     ".": {
@@ -48,7 +52,7 @@
   "contributors": [
     "David Bismut (https://github.com/dbismut)"
   ],
-  "homepage": "https://use-gesture.netlify.app",
+  "homepage": "https://1degrees.netlify.app/use-gesture-x/",
   "peerDependencies": {
     "vue": ">= 3.2.1"
   },

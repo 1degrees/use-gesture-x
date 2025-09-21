@@ -2,13 +2,28 @@
   "name": "@use-gesture-x/core",
   "version": "1.0.0",
   "description": "Core engine for receiving gestures",
+  "keywords": [
+    "vue3",
+    "@use-gesture-x/core",
+    "drag",
+    "move",
+    "hover",
+    "wheel",
+    "scroll",
+    "zoom",
+    "rotate",
+    "animation"
+  ],
   "license": "MIT",
   "main": "dist/index.es.js",
   "module": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
   ],
   "exports": {
     ".": {
@@ -49,7 +64,7 @@
   "contributors": [
     "David Bismut (https://github.com/dbismut)"
   ],
-  "homepage": "https://use-gesture.netlify.app",
+  "homepage": "https://1degrees.netlify.app/use-gesture-x/",
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
