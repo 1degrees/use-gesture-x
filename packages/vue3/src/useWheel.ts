@@ -18,6 +18,5 @@ export function useWheel<EventType = EventTypes['wheel'], Config extends UserWhe
   const handlers = ref({ wheel: handler })
   const configRef = ref(config || {})
   const gestureKey = ref<GestureKey>('wheel')
-  console.log('useWheel', configRef, '------')
   return useRecognizers(handlers, configRef, gestureKey)
 }

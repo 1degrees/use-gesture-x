@@ -11,7 +11,7 @@ const alias = {
 };
 
 export default defineConfig({
-  // base: './',
+  base: '/use-gesture-x/',
   title: '@use-gesture-x/vue3',
   description: 'Just playing around.',
 
@@ -33,6 +33,7 @@ export default defineConfig({
             text: '快速上手',
             link: '/',
             items: [
+              { text: '动画 useSpring', link: '/zh/use-spring' },
               { text: '拖拽 useDrag', link: '/zh/use-drag' },
               { text: '移动 useMove', link: '/zh/use-move' },
               { text: '悬停 useHover', link: '/zh/use-hover' },
@@ -40,7 +41,6 @@ export default defineConfig({
               { text: '滚动 useScroll', link: '/zh/use-scroll' },
               { text: '缩放 usePinch', link: '/zh/use-pinch' },
               { text: '综合 useGesture', link: '/zh/use-gesture' },
-              { text: '动画 useSpring', link: '/zh/use-spring' },
               { text: 'API 及 配置详细', link: '/zh/options' },
             ]
           }

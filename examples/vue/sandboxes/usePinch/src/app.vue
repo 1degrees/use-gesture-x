@@ -21,9 +21,9 @@ const [style, api] = useSpring({
 const bind = usePinch(
   ({ active, turns, ...state }) => {
     const [scale, angle] = state[gesture]
-    api.start({
+    api.set({
       scale: active || gesture === 'offset' ? scale : 1,
-      rotate: active || gesture === 'offset' ? angle : 0
+      rotateZ: active || gesture === 'offset' ? angle : 0
     })
   },
   {

@@ -52,7 +52,6 @@ const model = defineModel({
 })
 const fromChange = (key, val) => {
   model.value[key] = val
-  console.log(key, val, model.value, '---配置改变---')
 }
 </script>
 <style scoped>
