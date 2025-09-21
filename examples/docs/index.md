@@ -1,7 +1,10 @@
 # vue3 手势组件
 
-@use-gesture-x/vue3 一个强大的 vue3 手势库，设计灵感借鉴 @use-gesture 库，基于vue3 Component API 重新设计并实现的手势库工具库
-保持了react 用户的使用习惯，用户可以平滑切换至vue3 项目实战中使用
+@use-gesture-x/vue3 一个非常易用且功能强大的 vue3 手势库。
+
+设计灵感借鉴于 @use-gesture, 基于vue3 Component API 重新设计并实现的手势工具集合
+
+保持了react 用户的使用习惯，开发者可以平滑无障碍切换至vue3 项目实战中使用
 
 ## 使用方式
 

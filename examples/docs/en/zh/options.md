@@ -1,6 +1,95 @@
 # @use-gesture-x/vue3 配置选项说明文档
 
-### Gesture Config Options
+### Vue 手势交互
+
+导出了几个可以处理不同手势的钩子函数。
+
+| Hook         | 描述                                |
+| ------------ | ------------------------------------------ |
+| `useDrag`    | 处理拖拽手势                   |
+| `useMove`    | 处理鼠标移动事件                  |
+| `useHover`   | 处理鼠标悬停事件 |
+| `useScroll`  | 处理滚动事件                      |
+| `useWheel`   | 处理滚轮事件                       |
+| `usePinch`   | 处理缩放、旋转手势                  |
+| `useGesture` | 处理多个手势在一个钩子中      |
+
+### Gesture 事件回调
+
+> 所有事件回调都接收一个状态对象作为参数，该对象包含有关手势事件的详细信息。
+
+```jsx
+{
+    onDrag: (state) => doSomethingWith(state),
+    onDragStart: (state) => doSomethingWith(state),
+    onDragEnd: (state) => doSomethingWith(state),
+    onPinch: (state) => doSomethingWith(state),
+    onPinchStart: (state) => doSomethingWith(state),
+    onPinchEnd: (state) => doSomethingWith(state),
+    onScroll: (state) => doSomethingWith(state),
+    onScrollStart: (state) => doSomethingWith(state),
+    onScrollEnd: (state) => doSomethingWith(state),
+    onMove: (state) => doSomethingWith(state),
+    onMoveStart: (state) => doSomethingWith(state),
+    onMoveEnd: (state) => doSomethingWith(state),
+    onWheel: (state) => doSomethingWith(state),
+    onWheelStart: (state) => doSomethingWith(state),
+    onWheelEnd: (state) => doSomethingWith(state),
+    onHover: (state) => doSomethingWith(state)
+  }
+```
+
+### Gesture 回调函数接收的参数定义
+
+> 所有事件回调都接收一个状态对象作为参数，下面是详细介绍状态对象的信息。
+
+```jsx
+const bind = useXXXX(state => {
+  const {
+    event,         // 源事件
+    xy,            // [x,y] 值（指针位置或滚动偏移量
+    initial,       // 手势开始时的 xy 值
+    intentional,   // 是否是有意的手势
+    delta,         // 移动增量（移动 - 上一个移动）
+    offset,        // 自第一次手势以来的偏移量
+    lastOffset,    // 上一个手势开始时的偏移量
+    movement,      // 偏移量与 lastOffset 的位移
+    velocity,      // 手势每轴的动量（单位：px/ms）
+    distance,      // 每个轴的偏移量距离
+    direction,     // 每个轴的方向
+    overflow,      // 是否超出边界（每个轴）
+    startTime,     // 手势开始时间（ms）
+    timeDelta,     // 与前一个事件的时间差（ms）
+    elapsedTime,   // 手势已用时间（ms）
+    timeStamp,     // 事件的时间戳（ms）
+    type,          // 事件类型
+    target,        // 事件目标元素
+    currentTarget, // 事件当前目标元素
+    first,         // 当它是第一个事件时为 true
+    last,          // 当它是最后一个事件时为 true
+    active,        // 当手势活动时为 true
+    memo,          // 上一次处理器运行返回的值
+    cancel,        // 你可以调用的用于中断某些手势的函数
+    canceled,      // 当手势被取消（drag and pinch）时为 true
+    down,          // 当鼠标按钮或触摸点接触屏幕时为 true
+    buttons,       // 按下的按钮数量
+    touches,       // 接触屏幕的手指数量
+    args,          // 传递给 bind 函数的参数（React 仅支持）
+    ctrlKey,       // 当 control 键被按下时为 true
+    altKey,        // "      "  alt     "      "
+    shiftKey,      // "      "  shift   "      "
+    metaKey,       // "      "  meta    "      "
+    locked,        // document.pointerLockElement 是否已设置
+    dragging,      // is the component currently being dragged
+    moving,        // "              "              "  moved
+    scrolling,     // "              "              "  scrolled
+    wheeling,      // "              "              "  wheeled
+    pinching       // "              "              "  pinched
+  } = state
+})
+```
+
+### Gesture 配置选项
 
 以下是可应用于手势的所有选项。
 

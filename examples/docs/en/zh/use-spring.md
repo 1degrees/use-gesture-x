@@ -2,7 +2,7 @@
 
 ## useSpring 动画代码
 
-该代码是一个简单的模拟动画的spring效果的代码，案例中多次用到动画效果均使用了该代码。
+该代码是一个非常简单的模拟动画效果的代码（参考 react-spring 效果），案例中多次用的到动画效果均使用了该代码。
 
 ```vue
 import { reactive, computed } from 'vue'
