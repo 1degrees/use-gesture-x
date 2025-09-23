@@ -1,3 +1,5 @@
+import "./chunk-BUSYA2B4.js";
+
 // ../../node_modules/@vitepress-demo-preview/core/dist/index.js
 var o = { copySuccessText: "复制成功", vueApp: void 0 };
 function p(e) {

@@ -5,8 +5,9 @@ import {
   unref,
   watch
 } from "./chunk-ISEM245F.js";
+import "./chunk-BUSYA2B4.js";
 
-// ../vue/sandboxes/useDrag/node_modules/@use-gesture-x/core/dist/utils-Bc2CPI0y.js
+// ../vue/sandboxes/dotsConnect/node_modules/@use-gesture-x/core/dist/utils-Bc2CPI0y.js
 function y(r, u3, b2) {
   return Math.max(u3, Math.min(r, b2));
 }
@@ -38,7 +39,7 @@ function A(r, [u3, b2], [e, a]) {
   return [t(u3, c, d, e), t(b2, h, M3, a)];
 }
 
-// ../vue/sandboxes/useDrag/node_modules/@use-gesture-x/core/dist/actions-Buizaugf.js
+// ../vue/sandboxes/dotsConnect/node_modules/@use-gesture-x/core/dist/actions-Buizaugf.js
 var Z = Object.defineProperty;
 var tt = (s, i, t2) => i in s ? Z(s, i, { enumerable: true, configurable: true, writable: true, value: t2 }) : s[i] = t2;
 var l = (s, i, t2) => tt(s, typeof i != "symbol" ? i + "" : i, t2);
@@ -539,7 +540,7 @@ var dt = class extends y2 {
         if (o === "pointer" && e.preventScrollDelay === void 0) {
           const n2 = "uv" in t2 ? t2.sourceEvent.currentTarget : t2.currentTarget;
           window.getComputedStyle(n2).touchAction === "auto" && console.warn(
-            "[@use-gesture]: The drag target has its `touch-action` style property set to `auto`. It is recommended to add `touch-action: 'none'` so that the drag gesture behaves correctly on touch-enabled devices. For more information read this: https://use-gesture-vue3.netlify.app//docs/extras/#touch-action.\n\nThis message will only show in development mode. It won't appear in production. If this is intended, you can ignore it.",
+            "[@use-gesture]: The drag target has its `touch-action` style property set to `auto`. It is recommended to add `touch-action: 'none'` so that the drag gesture behaves correctly on touch-enabled devices. For more information read this: https://use-gesture.netlify.app/docs/extras/#touch-action.\n\nThis message will only show in development mode. It won't appear in production. If this is intended, you can ignore it.",
             n2
           );
         }
@@ -999,7 +1000,7 @@ var Qt = {
   resolver: Pt
 };
 
-// ../vue/sandboxes/useDrag/node_modules/@use-gesture-x/core/dist/index.es.js
+// ../vue/sandboxes/dotsConnect/node_modules/@use-gesture-x/core/dist/index.es.js
 var E = Object.defineProperty;
 var S2 = (t2, e, s) => e in t2 ? E(t2, e, { enumerable: true, configurable: true, writable: true, value: s }) : t2[e] = s;
 var u2 = (t2, e, s) => S2(t2, typeof e != "symbol" ? e + "" : e, s);
@@ -1235,7 +1236,7 @@ function W2(t2, e) {
   return f2(r, s, "onDrag", "drag", o, e), f2(r, s, "onWheel", "wheel", o, e), f2(r, s, "onScroll", "scroll", o, e), f2(r, s, "onPinch", "pinch", o, e), f2(r, s, "onMove", "move", o, e), f2(r, s, "onHover", "hover", o, e), { handlers: o, config: e, nativeHandlers: n2 };
 }
 
-// ../vue/sandboxes/useDrag/node_modules/@use-gesture-x/vue3/dist/index.es.js
+// ../vue/sandboxes/dotsConnect/node_modules/@use-gesture-x/vue3/dist/index.es.js
 function f3(n2, c = ref({}), t2, o) {
   const e = new K2(unref(n2));
   watch(

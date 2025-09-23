@@ -4,10 +4,10 @@
 
 <preview path="@demo/dotsConnect/src/app.vue" title="useDrag 拖拽连接两个点" description="" />
 
-## useDrag 拖拽 - 调控设置面板案例
-
-<preview path="@demo/useDrag/src/app.vue" title="useDrag拖拽，调控设置面板案例" description="" />
-
 ## useDrag 拖拽 - 拖拽排序
 
 <preview path="@demo/dragList/src/app.vue" title="useDrag拖拽排序" description="" />
+
+## useDrag 拖拽 - 调控设置面板案例
+
+<preview path="@demo/useDrag/src/app.vue" title="useDrag拖拽，调控设置面板案例" description="" />

@@ -1,7 +1,6 @@
 node_modules
 dist
-packages/**/node_modules
-packages/**/dist
+cache
 
 # Editor directories and files
 .vscode

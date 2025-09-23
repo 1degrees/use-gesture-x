@@ -1,49 +1,64 @@
 {
-  "hash": "1415c9a6",
+  "hash": "fa738f4f",
   "configHash": "3f8aca68",
-  "lockfileHash": "cd4e4418",
-  "browserHash": "568583a9",
+  "lockfileHash": "ef7dc655",
+  "browserHash": "7cf9c616",
   "optimized": {
     "vue": {
       "src": "../../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "7b7fb39e",
+      "fileHash": "f633cf91",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../../node_modules/vitepress/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "61fed413",
+      "fileHash": "25fd6e40",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../../node_modules/vitepress/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "7c993d85",
+      "fileHash": "8fa88bcb",
       "needsInterop": false
     },
     "@vitepress-demo-preview/component": {
       "src": "../../../../../node_modules/@vitepress-demo-preview/component/dist/preview-component.js",
       "file": "@vitepress-demo-preview_component.js",
-      "fileHash": "cb4493f9",
+      "fileHash": "4c1fce72",
       "needsInterop": false
     },
     "@vitepress-demo-preview/core": {
       "src": "../../../../../node_modules/@vitepress-demo-preview/core/dist/index.js",
       "file": "@vitepress-demo-preview_core.js",
-      "fileHash": "4b8e24a8",
+      "fileHash": "76638464",
       "needsInterop": false
     },
     "@use-gesture-x/vue3": {
-      "src": "../../../../vue/sandboxes/useDrag/node_modules/@use-gesture-x/vue3/dist/index.es.js",
+      "src": "../../../../vue/sandboxes/dotsConnect/node_modules/@use-gesture-x/vue3/dist/index.es.js",
       "file": "@use-gesture-x_vue3.js",
-      "fileHash": "f40fe5a2",
+      "fileHash": "0d3feadc",
       "needsInterop": false
+    },
+    "lodash.clamp": {
+      "src": "../../../../../node_modules/lodash.clamp/index.js",
+      "file": "lodash__clamp.js",
+      "fileHash": "ef714dae",
+      "needsInterop": true
+    },
+    "lodash-move": {
+      "src": "../../../../../node_modules/lodash-move/lib/index.js",
+      "file": "lodash-move.js",
+      "fileHash": "5042d6bf",
+      "needsInterop": true
     }
   },
   "chunks": {
     "chunk-ISEM245F": {
       "file": "chunk-ISEM245F.js"
+    },
+    "chunk-BUSYA2B4": {
+      "file": "chunk-BUSYA2B4.js"
     }
   }
 }

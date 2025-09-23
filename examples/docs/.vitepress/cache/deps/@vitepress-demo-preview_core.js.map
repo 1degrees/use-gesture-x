@@ -2,6 +2,6 @@
   "version": 3,
   "sources": ["../../../../../node_modules/@vitepress-demo-preview/core/dist/index.js"],
   "sourcesContent": ["var o={copySuccessText:\"\\u590D\\u5236\\u6210\\u529F\",vueApp:void 0};function p(e){let n=Object.assign({},o,e);return typeof window!=\"undefined\"&&(window.demoPreviewConfig=n),n}export{p as defineClientComponentConfig};\n"],
-  "mappings": ";AAAA,IAAI,IAAE,EAAC,iBAAgB,QAA2B,QAAO,OAAM;AAAE,SAAS,EAAE,GAAE;AAAC,MAAI,IAAE,OAAO,OAAO,CAAC,GAAE,GAAE,CAAC;AAAE,SAAO,OAAO,UAAQ,gBAAc,OAAO,oBAAkB,IAAG;AAAC;",
+  "mappings": ";;;AAAA,IAAI,IAAE,EAAC,iBAAgB,QAA2B,QAAO,OAAM;AAAE,SAAS,EAAE,GAAE;AAAC,MAAI,IAAE,OAAO,OAAO,CAAC,GAAE,GAAE,CAAC;AAAE,SAAO,OAAO,UAAQ,gBAAc,OAAO,oBAAkB,IAAG;AAAC;",
   "names": []
 }
