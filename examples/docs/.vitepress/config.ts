@@ -11,11 +11,11 @@ const alias = {
 };
 
 export default defineConfig({
-  base: '/use-gesture-x/',
+  base: '/',
   title: '@use-gesture-x/vue3',
   description: '一款强大的 vue3 手势库，@use-gesture-x/vue3, @use-gesture/vue3, 支持拖拽、移动、悬停、滚轮、滚动、缩放、旋转、动画等手势操作。',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/use-gesture-x/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
   ],
   locales: {
     root: {

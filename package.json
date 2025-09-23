@@ -5,7 +5,8 @@
     "packages/*",
     "examples/*"
   ],
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "@babel/core": "^7.22.19",
     "@babel/plugin-syntax-flow": "^7.22.5",

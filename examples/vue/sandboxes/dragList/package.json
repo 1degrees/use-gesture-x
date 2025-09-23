@@ -1,0 +1,23 @@
+{
+  "name": "vue-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lodash.clamp": "4.0.3",
+    "lodash-move": "1.1.1",
+    "vue": "^3.5.13",
+    "@use-gesture-x/vue3": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vue-tsc": "^2.1.10"
+  }
+}

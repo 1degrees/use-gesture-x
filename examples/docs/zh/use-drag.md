@@ -8,4 +8,6 @@
 
 <preview path="@demo/useDrag/src/app.vue" title="useDrag拖拽，调控设置面板案例" description="" />
 
-## 复杂案例待更新
+## useDrag 拖拽 - 拖拽排序
+
+<preview path="@demo/dragList/src/app.vue" title="useDrag拖拽排序" description="" />

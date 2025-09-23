@@ -10,6 +10,11 @@ const routes = [
         component: () => import('@sandboxes/useDrag/src/app.vue')
       },
       {
+        name: 'dragList',
+        path: '/dragList',
+        component: () => import('@sandboxes/dragList/src/app.vue')
+      },
+      {
         name: 'useMove',
         path: '/useMove',
         component: () => import('@sandboxes/useMove/src/app.vue')

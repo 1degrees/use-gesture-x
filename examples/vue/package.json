@@ -11,6 +11,8 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "dependencies": {
+    "lodash.clamp": "4.0.3",
+    "lodash-move": "1.1.1",
     "vue": "^3.3.9",
     "vue-router": "^4.2.5",
     "@use-gesture-x/vue3": "^1.0.0"
