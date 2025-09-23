@@ -1,5 +1,5 @@
-import { Ref } from 'vue'
 import { ref } from 'vue'
+import { GestureRef } from './types'
 import { registerAction, pinchAction } from '@use-gesture-x/core/actions'
 import { UserPinchConfig, Handler, EventTypes, GestureKey } from '@use-gesture-x/core/types'
 import { useRecognizers } from './useRecognizers'
@@ -11,8 +11,8 @@ import { useRecognizers } from './useRecognizers'
  * @param {UserPinchConfig} config - the config object including generic options and pinch options
  */
 export function usePinch<EventType = EventTypes['pinch'], Config extends UserPinchConfig = UserPinchConfig>(
-  handler: Ref<Handler<'pinch', EventType>> | Handler<'pinch', EventType>,
-  config?: Ref<Config> | Config
+  handler: GestureRef<Handler<'pinch', EventType>>,
+  config?: GestureRef<Config>
 ) {
   registerAction(pinchAction)
   const handlers = ref({ pinch: handler })

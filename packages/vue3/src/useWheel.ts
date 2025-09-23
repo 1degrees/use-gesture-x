@@ -1,5 +1,5 @@
-import { Ref } from 'vue'
 import { ref } from 'vue'
+import { GestureRef } from './types'
 import { registerAction, wheelAction } from '@use-gesture-x/core/actions'
 import { UserWheelConfig, Handler, EventTypes, GestureKey } from '@use-gesture-x/core/types'
 import { useRecognizers } from './useRecognizers'
@@ -11,8 +11,8 @@ import { useRecognizers } from './useRecognizers'
  * @param {UserWheelConfig} config - the config object including generic options and wheel options
  */
 export function useWheel<EventType = EventTypes['wheel'], Config extends UserWheelConfig = UserWheelConfig>(
-  handler: Ref<Handler<'wheel', EventType>> | Handler<'wheel', EventType>,
-  config?: Ref<Config> | Config
+  handler: GestureRef<Handler<'wheel', EventType>>,
+  config?: GestureRef<Config>
 ) {
   registerAction(wheelAction)
   const handlers = ref({ wheel: handler })

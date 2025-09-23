@@ -1,5 +1,5 @@
-import { Ref } from 'vue'
 import { ref } from 'vue'
+import { GestureRef } from './types'
 import { registerAction, moveAction } from '@use-gesture-x/core/actions'
 import { UserMoveConfig, Handler, EventTypes, GestureKey } from '@use-gesture-x/core/types'
 import { useRecognizers } from './useRecognizers'
@@ -11,8 +11,8 @@ import { useRecognizers } from './useRecognizers'
  * @param {UserMoveConfig} config - the config object including generic options and move options
  */
 export function useMove<EventType = EventTypes['move'], Config extends UserMoveConfig = UserMoveConfig>(
-  handler: Ref<Handler<'move', EventType>> | Handler<'move', EventType>,
-  config?: Ref<Config> | Config
+  handler: GestureRef<Handler<'move', EventType>>,
+  config?: GestureRef<Config>
 ) {
   registerAction(moveAction)
   const handlers = ref({ move: handler })

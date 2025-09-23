@@ -1,4 +1,4 @@
-import { Ref } from 'vue'
+import { GestureRef } from './types'
 import { dragAction, pinchAction, scrollAction, wheelAction, moveAction, hoverAction } from '@use-gesture-x/core/actions'
 import { GestureHandlers, UserGestureConfig, EventTypes, AnyHandlerEventTypes } from '@use-gesture-x/core/types'
 import { createUseGesture } from './createUseGesture'
@@ -14,7 +14,7 @@ import { createUseGesture } from './createUseGesture'
 export function useGesture<
   HandlerTypes extends AnyHandlerEventTypes = EventTypes,
   Config extends UserGestureConfig = UserGestureConfig
->(handlers: Ref<GestureHandlers<HandlerTypes>> | GestureHandlers<HandlerTypes>, config?: Ref<Config> | Config) {
+>(handlers: GestureRef<GestureHandlers<HandlerTypes>> , config?: GestureRef<Config>) {
   const hook = createUseGesture([dragAction, pinchAction, scrollAction, wheelAction, moveAction, hoverAction])
   return hook(handlers, config || ({} as Config))
 }
