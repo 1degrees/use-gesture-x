@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { Ref } from 'vue'
+import { GestureRef } from './types'
 import { ref, watch, unref, onMounted, onUnmounted } from 'vue'
 import { Controller } from '@use-gesture-x/core'
 import { GenericOptions, GestureKey, InternalHandlers, NativeHandlers } from '@use-gesture-x/core/types'
@@ -20,10 +20,10 @@ type HookReturnType<Config extends GenericOptions> = Config['target'] extends ob
  * @returns nothing when config.target is set, a binding function when not.
  */
 export function useRecognizers<Config extends GenericOptions>(
-  handlers: Ref<InternalHandlers>,
-  config: Ref<Config | {}> = ref({}),
-  gestureKey?: Ref<GestureKey>,
-  nativeHandlers?: Ref<NativeHandlers>
+  handlers: GestureRef<InternalHandlers>,
+  config: GestureRef<Config | {}> = ref({}),
+  gestureKey?: GestureRef<GestureKey>,
+  nativeHandlers?: GestureRef<NativeHandlers>
 ): HookReturnType<Config> {
   const ctrl = new Controller(unref(handlers))
   watch(

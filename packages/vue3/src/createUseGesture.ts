@@ -1,5 +1,5 @@
-import { Ref } from 'vue'
 import { ref, unref, watch } from 'vue'
+import { GestureRef } from './types'
 import { parseMergedHandlers } from '@use-gesture-x/core'
 import { registerAction } from '@use-gesture-x/core/actions'
 import { Action, GestureHandlers, UserGestureConfig } from '@use-gesture-x/core/types'
@@ -9,8 +9,8 @@ export function createUseGesture(actions: Action[]) {
   actions.forEach(registerAction)
 
   return function useGesture<Config extends UserGestureConfig = UserGestureConfig>(
-    _handlers: Ref<GestureHandlers> | GestureHandlers,
-    _config?: Ref<Config> | Config
+    _handlers: GestureRef<GestureHandlers>,
+    _config?: GestureRef<Config>
   ) {
     const { handlers, nativeHandlers, config } = parseMergedHandlers(unref(_handlers), unref(_config) || {})
     const handlersRef = ref(handlers)

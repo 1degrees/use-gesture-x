@@ -1,5 +1,5 @@
-import { Ref } from 'vue'
 import { ref } from 'vue'
+import { GestureRef } from './types'
 import { registerAction, hoverAction } from '@use-gesture-x/core/actions'
 import { EventTypes, UserHoverConfig, Handler, GestureKey } from '@use-gesture-x/core/types'
 import { useRecognizers } from './useRecognizers'
@@ -11,8 +11,8 @@ import { useRecognizers } from './useRecognizers'
  * @param {UserHoverConfig} config - the config object including generic options and hover options
  */
 export function useHover<EventType = EventTypes['hover'], Config extends UserHoverConfig = UserHoverConfig>(
-  handler: Ref<Handler<'hover', EventType>> | Handler<'hover', EventType>,
-  config?: Ref<Config> | Config
+  handler: GestureRef<Handler<'hover', EventType>>,
+  config?: GestureRef<Config>
 ) {
   registerAction(hoverAction)
   const handlers = ref({ hover: handler })

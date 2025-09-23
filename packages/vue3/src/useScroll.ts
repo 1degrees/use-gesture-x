@@ -1,5 +1,5 @@
-import { Ref } from 'vue'
 import { ref } from 'vue'
+import { GestureRef } from './types'
 import { registerAction, scrollAction } from '@use-gesture-x/core/actions'
 import { UserScrollConfig, Handler, EventTypes, GestureKey } from '@use-gesture-x/core/types'
 import { useRecognizers } from './useRecognizers'
@@ -11,8 +11,8 @@ import { useRecognizers } from './useRecognizers'
  * @param {UserScrollConfig} config - the config object including generic options and scroll options
  */
 export function useScroll<EventType = EventTypes['scroll'], Config extends UserScrollConfig = UserScrollConfig>(
-  handler: Ref<Handler<'scroll', EventType>> | Handler<'scroll', EventType>,
-  config?: Ref<Config> | Config
+  handler: GestureRef<Handler<'scroll', EventType>>,
+  config?: GestureRef<Config>
 ) {
   registerAction(scrollAction)
   const handlers = ref({ scroll: handler })
